@@ -11,7 +11,7 @@ class q
 			System.out.println("full");
 		}
 		else{
-		ar[rear%ar.length]=x;
+		ar[rear]=x;
 		rear=rear%ar.length+1;
 		size++;
 	}
